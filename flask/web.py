@@ -7,6 +7,7 @@ from flask import redirect
 from flask import render_template
 from flask import request
 from flask_session import Session
+from scoring_functions import *
 
 UPLOAD_FOLDER = 'files'
 app = Flask(__name__)
